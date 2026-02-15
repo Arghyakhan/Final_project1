@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solata-Frams</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <!-- Navbar -->
+     <nav class="bg-white/90 backdrop-blur-md shadow-sm fixed w-full top-0 left-0 z-50 border-b">
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex justify-between items-center h-20">
+
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="./AboutUsPage/logo.png" alt="Solata Foods Logo" class="h-12 w-auto">
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-10 font-medium">
+        <a href="About.html" class="relative group text-gray-700">About
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="solata-farms.html" class="relative group text-gray-700">Solata Farms
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="gaia-greens.html" class="relative group text-gray-700">Gaia Greens
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="solata-pack.html" class="relative group text-gray-700">Solata Pack
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+        
+        <a href="Recipes.html" class="relative group text-gray-700">Recipes
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        
+        <a href="Food-Safety.html" class="relative group text-gray-700">Food Safety
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="Contact.html"
+           class="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition inline-block">
+          Contact Us
+        </a>
+      </div>
+    
+
+      <!-- Mobile Button -->
+      <button id="menu-btn" class="md:hidden text-3xl text-green-700">☰</button>
+
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+    <a href="About.html" class="block px-6 py-4 hover:bg-green-50">About</a>
+    <a href="solata-farms.html" class="block px-6 py-4 hover:bg-green-50">Solata Farms</a>
+    <a href="gaia-greens.html" class="block px-6 py-4 hover:bg-green-50">Gaia Greens</a>
+    <a href="solata-pack.html" class="block px-6 py-4 hover:bg-green-50">Solata Pack</a>
+    <a href="Recipes.html" class="block px-6 py-4 hover:bg-green-50">Recipes</a>
+    <a href="Food-Safety.html" class="block px-6 py-4 hover:bg-green-50">Food Safety</a>
+
+    <div class="p-6">
+      <!-- FIXED MOBILE CONTACT BUTTON -->
+      <a href="Contact.html"
+         class="block text-center w-full bg-green-600 text-white py-3 rounded-full">
+        Contact Us
+      </a>
+    </div>
+  </div>
+
+</nav>
+
+
+<!-- HERO SECTION -->
+<section class="relative w-full h-[60vh] md:h-[75vh]">
+
+  <!-- Background Image -->
+  <img 
+    src="./SolataFarms/Group 1.png" 
+    alt="Fresh Food Banner"
+    class="absolute inset-0 w-full h-full object-cover "
+  >
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 opacity-50"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 flex items-center justify-center h-full text-center px-4">
+    <div>
+      <h1 class="text-white text-4xl md:text-6xl font-bold mb-4">
+         <span class="text-300">
+            Solata Farms
+         </span>
+      </h1>
+      <p class="text-gray-200 text-lg md:text-xl mb-6">
+        
+
+        The Freshest Greens from the Finest Family Farms in the US.
+      </p>
+
+     
+    </div>
+  </div>
+
+</section>
+
+
+<!-- INTRO HEADER SECTION -->
+<section class="py-20 bg-white">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+
+    <!-- Title -->
+    <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
+      Try Out Our Entire Team of Greens!
+    </h2>
+
+    <!-- Description -->
+    <p class="text-lg md:text-xl text-gray-600 leading-relaxed">
+      Select from our range of the freshest, crispiest lettuces year round.
+    </p>
+
+  </div>
+</section>
+
+
+<!-- GREENS PRODUCT GRID -->
+<section class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 justify-items-center">
+
+      <!-- CARD 1 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 13.png"
+          class="p-4 w-[364px] h-[595px] object-cover
+           transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 12.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 14.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 41.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 29.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 30.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 7 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 42.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 8 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 32.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- INTRO HEADER SECTION Part-2-->
+<section class="py-20 bg-white">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+
+    <!-- Title -->
+    <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
+      Paired with Cindy’s Kitchen’s Dressings
+    </h2>
+
+    <!-- Description -->
+    <p class="text-lg md:text-xl text-gray-600 leading-relaxed">
+      Add a touch of delightful flavor with these exceptional combinations.
+    </p>
+
+  </div>
+</section>
+
+<!-- GREENS PRODUCT GRID -->
+<section class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 justify-items-center">
+
+      <!-- CARD 1 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 36.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 37.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 38.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 39.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="group overflow-hidden rounded-2xl shadow-md">
+        <img src="./SolataFarms/Group 40.png"
+          class="w-[364px] h-[595px] object-cover transition duration-500 group-hover:scale-110">
+      </div>
+
+      
+
+  </div>
+</section>
+
+
+
+
+
+<!-- FOOTER -->
+
+<footer class="relative w-full aspect-[1920/1169] overflow-hidden">
+
+  <img
+  href="Recipes.html"
+    src="./HomePageimages/Group 28.png"
+    alt="Footer Banner"
+    class="absolute inset-0 w-full h-full object-cover object-center"
+  >
+
+</footer>
+
+
+<!-- JS -->
+<script>
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("mobile-menu");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
+</script>
+
+
+</body>
+</html>

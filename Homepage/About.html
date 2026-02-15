@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-100 pt-24">
+    <!-- Navbar -->
+     <nav class="bg-white/90 backdrop-blur-md shadow-sm fixed w-full top-0 left-0 z-50 border-b">
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex justify-between items-center h-20">
+
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="./AboutUsPage/logo.png" alt="Solata Foods Logo" class="h-12 w-auto">
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-10 font-medium">
+        <a href="About.html" class="relative group text-gray-700">About
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="solata-farms.html" class="relative group text-gray-700">Solata Farms
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="gaia-greens.html" class="relative group text-gray-700">Gaia Greens
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="solata-pack.html" class="relative group text-gray-700">Solata Pack
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+        
+        <a href="Recipes.html" class="relative group text-gray-700">Recipes
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        
+        <a href="Food-Safety.html" class="relative group text-gray-700">Food Safety
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="Contact.html"
+           class="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition inline-block">
+          Contact Us
+        </a>
+      </div>
+    
+
+      <!-- Mobile Button -->
+      <button id="menu-btn" class="md:hidden text-3xl text-green-700">☰</button>
+
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+    <a href="About.html" class="block px-6 py-4 hover:bg-green-50">About</a>
+    <a href="solata-farms.html" class="block px-6 py-4 hover:bg-green-50">Solata Farms</a>
+    <a href="gaia-greens.html" class="block px-6 py-4 hover:bg-green-50">Gaia Greens</a>
+    <a href="solata-pack.html" class="block px-6 py-4 hover:bg-green-50">Solata Pack</a>
+    <a href="Recipes.html" class="block px-6 py-4 hover:bg-green-50">Recipes</a>
+    <a href="Food-Safety.html" class="block px-6 py-4 hover:bg-green-50">Food Safety</a>
+
+    <div class="p-6">
+      <!-- FIXED MOBILE CONTACT BUTTON -->
+      <a href="Contact.html"
+         class="block text-center w-full bg-green-600 text-white py-3 rounded-full">
+        Contact Us
+      </a>
+    </div>
+  </div>
+
+</nav>
+
+
+ <!-- HERO SECTION -->
+<section class="relative w-full h-[60vh] md:h-[75vh]">
+
+  <!-- Background Image -->
+  <img 
+    src="./AboutUsPage/Group 1.png" 
+    alt="Fresh Food Banner"
+    class="absolute inset-0 w-full h-full object-cover "
+  >
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 opacity-50"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 flex items-center justify-center h-full text-center px-4">
+    <div>
+      <h1 class="text-white text-4xl md:text-6xl font-bold mb-4">
+         <span class="text-300">
+            About Us
+         </span>
+      </h1>
+      <p class="text-gray-200 text-lg md:text-xl mb-6">
+        
+
+        Always Fresh-Full Of Flover
+      </p>
+
+     
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ABOUT TEXT SECTION -->
+<section class="bg-white py-16 md:py-24 ">
+  <div class="max-w-6xl mx-auto px-6 lg:px-10">
+
+    
+
+    <!-- Main Heading -->
+    <h2 class="text-3xl sm:text-3xl md:text-5xl font-bold text-black leading-tight mb-8 text-center md:text-left px-20">
+      Who Says Salads Have to be Boring?
+    </h2>
+
+    <!-- Paragraphs -->
+    <div class="space-y-6 text-green-700 text-2xl md:text-3xl leading-snug max-w-4xl font-semibold px-20">
+        
+
+      <p>
+        We Know That a Big Part of a Healthy Lifestyle is Finding a Balance Between What is Healthy and What is Enjoyable.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- IMAGE + TEXT SECTION -->
+<section class="bg-gray-50 py-16 md:py-24">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div class="grid md:grid-cols-2 gap-10 items-stretch">
+
+      <!-- LEFT CARD -->
+      <div class="h-full">
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden h-full flex flex-col">
+
+          <!-- Image -->
+          <img 
+            src="./AboutUsPage/Layer-0 2.png"
+            alt="Fresh Farm"
+            class="w-full h-64 md:h-full object-cover"
+          >
+        </div>
+      </div>
+
+
+      <!-- RIGHT TEXT (same height as card) -->
+      <div class="h-full flex items-center">
+        <div class="space-y-6">
+
+          
+
+          <p class="text-gray-600 text-lg leading-relaxed">
+            Cindy's Kitchen's mission is to stay ahead of the curve and make a wide range of innovative, clean, refrigerated salad dressings, dips, and cooking sauces that customers love. We've selected Cindy's Kitchen as our partner to create the very finest single-serve salads with dressings for both Solata Farms and Gaia Greens products.
+At Solata Foods, we believe that better greens and salads don't have to mean boring. Behind every Gaia Greens and Solata Farms product is our network of exceptional family farms creating the most flavorful lettuces available. We harvest, triple wash and pack, delivering to stores within just a few days so every salad is crispy, fresh and packed with nutrition, taste and goodness.
+Gaia Greens is our organic brand - inspired by the desire to create the supreme salad. Designed for salad-curious people - passionate about elevating the everyday salad so it's never sad, never boring and is better than you ever dreamed possible. Made with the freshest, brilliantly flavored organic greens, we inspire you to create salads that are truly crave-worthy!
+Gaia Greens sources exclusively from premium quality organic farms, delivering product quickly to market. Better greens make a better salad so only the freshest, sparkling flavors ever reach your fork. Tender and delicious, Gaia Greens are organic, clean label, with no artificial anything. Always fresh and full of flavor, Gaia Greens offers inspired combinations of clean-label, organic salads in packaged greens, pre-made kits, and single serve so every salad is something you crave.
+          </p>
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- STORY / DESCRIPTION SECTION -->
+<section class="bg-white py-5 md:py-8">
+  <div class="max-w-4xl mx-auto px-2 text-center">
+
+
+    <!-- Text Content -->
+    <div class="space-y-2 text-gray-600 text-lg md:text-xl leading-relaxed">
+
+      <p>
+        Meanwhile, Solata Farms is our conventional brand with over 35 years in the leafy greens industry. We source high-quality greens and lettuces from family farms across the US. We are meticulous in producing Solata Farms products, visually inspecting every bunch of lettuce so only the freshest, most flavorful and tender leaves reach the store...and your plate. Every Solata Farms product is triple-washed and packed in the Hudson Valley, New York, with every product meeting our highest standard of food safety. With decades of experience in fresh greens sourcing, packing and delivery, Solata Foods is your destination for the freshest lettuces, pre-made salads and kits available.
+      </p>
+     
+
+      
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FEATURES CARDS SECTION -->
+<section class="bg-gray-100 py-16 md:py-24">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-14">
+      Our Team
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- CARD 1 (TEXT OVER IMAGE) -->
+      <div class="relative rounded-2xl overflow-hidden shadow-lg group bg-green-800">
+
+        <div class="absolute inset-0 flex flex-col justify-end p-6 text-white">
+          <p class="text-xs md:text-sm ">
+            Varick Warren
+            <br>
+            With over 35 years of experience in the salad industry, Varick is the Grandfather of baby leaf. A New York native Varick is passionate about quality and holds firm to Solatas key values of Freshness, Value, and Market leading quality. As COO he takes his responsibility for day-to-day operations very seriously. More often than not he can be found in the plant getting hands-on with the greens. As well as believing everyone should have access to healthy nutritious greens Varick also believes that everyone should have a happy workplace. He goes above and beyond to ensure all of his people are happy and getting their needs met. He is a lifelong hockey player and an avid Rangers fan.
+            
+          </p>
+        </div>
+
+      </div>
+
+
+      <!-- CARD 2 -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="./AboutUsPage/Mask group1.png"
+             class="w-full h-80 object-cover">
+
+        <div class="p-6 bg-green-800">
+          <h3 class="text-xl font-bold text-white mb-2">Guy Averill</h3>
+          <p class="text-white">
+           Director Sales and Market Development “Freshness Police”
+          </p>
+        </div>
+      </div>
+
+
+      <!-- CARD 3 -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="./AboutUsPage/Mask group2.png"
+             class="w-full h-80 object-cover">
+
+        <div class="p-9 bg-green-800">
+          <h3 class="text-xl font-bold text-white mb-2">Maggie Skorski</h3>
+          <p class="text-white">
+            “The Glue that Holds the Ship Together”
+          </p>
+        </div>
+      </div>
+
+
+      <!-- CARD 4 -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="./AboutUsPage/Group 1707484615.png"
+             class="w-full h-80 object-cover">
+
+        <div class="p-6 bg-green-800">
+          <h3 class="text-xl font-bold text-white mb-2">Neide Warren</h3>
+          <p class="text-white">
+            “Production Manager. Chief in charge of getting it done.”
+          </p>
+        </div>
+      </div>
+
+
+
+
+      <!-- CARD 5 -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="./AboutUsPage/Group 1707484616.png"
+             class="w-full h-80 object-cover">
+
+        <div class="p-9 bg-green-800">
+          <h3 class="text-xl font-bold text-white mb-2">Lori Ward</h3>
+          <p class="text-white">
+            “Food Safety Queen”
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+<footer class="relative w-full aspect-[1920/1169] overflow-hidden">
+
+  <img
+  href="Recipes.html"
+    src="./HomePageimages/Group 28.png"
+    alt="Footer Banner"
+    class="absolute inset-0 w-full h-full object-cover object-center"
+  >
+
+</footer>
+
+
+
+
+<!-- JS -->
+<script>
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("mobile-menu");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
+</script>
+
+    
+</body>
+</html>

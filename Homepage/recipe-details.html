@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+    <nav class="bg-white/90 backdrop-blur-md shadow-sm fixed w-full top-0 left-0 z-50 border-b">
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex justify-between items-center h-20">
+
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="./HomePageimages/logo.png" alt="Solata Foods Logo" class="h-12 w-auto">
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-10 font-medium">
+        <a href="About.html" class="relative group text-gray-700">About
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="solata-farms.html" class="relative group text-gray-700">Solata Farms
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="gaia-greens.html" class="relative group text-gray-700">Gaia Greens
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="solata-pack.html" class="relative group text-gray-700">Solata Pack
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+        
+        <a href="Recipes.html" class="relative group text-gray-700">Recipes
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        
+        <a href="Food-Safety.html" class="relative group text-gray-700">Food Safety
+          <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full"></span>
+        </a>
+
+        <a href="Contact.html"
+           class="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition inline-block">
+          Contact Us
+        </a>
+      </div>
+    
+
+      <!-- Mobile Button -->
+      <button id="menu-btn" class="md:hidden text-3xl text-green-700">☰</button>
+
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+    <a href="About.html" class="block px-6 py-4 hover:bg-green-50">About</a>
+    <a href="solata-farms.html" class="block px-6 py-4 hover:bg-green-50">Solata Farms</a>
+    <a href="gaia-greens.html" class="block px-6 py-4 hover:bg-green-50">Gaia Greens</a>
+    <a href="solata-pack.html" class="block px-6 py-4 hover:bg-green-50">Solata Pack</a>
+    <a href="Recipes.html" class="block px-6 py-4 hover:bg-green-50">Recipes</a>
+    <a href="Food-Safety.html" class="block px-6 py-4 hover:bg-green-50">Food Safety</a>
+
+    <div class="p-6">
+      <!-- FIXED MOBILE CONTACT BUTTON -->
+      <a href="Contact.html"
+         class="block text-center w-full bg-green-600 text-white py-3 rounded-full">
+        Contact Us
+      </a>
+    </div>
+  </div>
+
+</nav>
+
+<!-- HERO SECTION -->
+<section class="relative w-full h-[60vh] md:h-[75vh]">
+
+  <!-- Background Image -->
+  <img 
+    src="./RecipiesPage/Group 1.png" 
+    alt="Fresh Food Banner"
+    class="absolute inset-0 w-full h-full object-cover "
+  >
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 opacity-50"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 flex items-center justify-center h-full text-center px-4">
+    <div>
+      <h1 class="text-white text-4xl md:text-6xl font-bold mb-4">
+         <span class="text-300">Spring Salad</span>
+      </h1>
+     
+
+     
+    </div>
+  </div>
+
+</section>
+
+<!-- RECIPE DETAILS CONTENT -->
+<section class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="flex flex-col justify-center h-full">
+
+        <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-8">
+          Spring Salad
+        </h2>
+
+        <p class="text-lg text-gray-600 leading-relaxed mb-6">
+          For a healthful and crunchy twist on classic Spring mix just add a few extra ingredients to bring out the flavor.
+        </p>
+
+        <p class="text-lg text-gray-600 leading-relaxed">
+          Ingredients:
+          <br>
+          2 -3 handfuls of Solata Spring Mix
+½ cup each of diced red & yellow pepper
+½ cup edamame
+½ cup shredded carrots
+½ cup of chopped pecans
+1-2 tablespoons toasted sesame seeds
+<br>
+Place spring mix in a large bowl. Drop in all other ingredients and top with toasted sesame seeds. Dress with the salad dressing of your choice and serve.
+        </p>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <!-- <div class="w-full h-full flex justify-center">
+        <img 
+          src="./RecipeDetails/recipe1.png"
+          alt="Recipe Image"
+          class="w-full max-w-[520px] h-[520px] object-cover rounded-2xl shadow-xl"
+        >
+      </div> -->
+      <!-- RIGHT IMAGE -->
+      <div class="flex justify-center lg:justify-end">
+        <img src="./RecipeDetails/Mask group.png"
+          class="w-[537px] h-[716px] object-cover rounded-lg shadow-lg">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- FOOTER -->
+
+<footer class="relative w-full aspect-[1920/1169] overflow-hidden">
+
+  <img
+   
+    src="./RecipeDetails/Group 28.png"
+    alt="Footer Banner"
+    class="absolute inset-0 w-full h-full object-cover object-center"
+  >
+
+</footer>
+
+
+
+<!-- JS -->
+<script>
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("mobile-menu");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
+
+document.querySelectorAll(".recipe-card").forEach(card => {
+  card.addEventListener("click", () => {
+    const id = card.getAttribute("data-id");
+    window.location.href = `recipe-details.html?id=${id}`;
+  });
+});
+</script>
+    
+    
+</body>
+</html>
